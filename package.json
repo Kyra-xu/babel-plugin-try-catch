@@ -1,5 +1,5 @@
 {
-  "name": "babel-plugin-try-catch",
+  "name": "babel-plugin-add-try-catch",
   "version": "1.0.0",
   "description": "auto add try-catch for function",
   "main": "lib/index.js",
