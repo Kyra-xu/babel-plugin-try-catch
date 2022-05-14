@@ -11,7 +11,7 @@ If you wish to disable it you can either turn `strict` off or pass
 
 **catchFunc**
 
-> Customize the error reporting method, which needs to be introduced globally
+> Customize the error reporting method, which needs to be introduced globally and this options is must
 
 ```javascript
 function report(info, error) {
@@ -67,12 +67,6 @@ With options:
 ]
 
 }
-```
-
-### Via CLI
-
-```sh
-babel --plugins try-catch script.js
 ```
 
 ### Via Node API

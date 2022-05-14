@@ -1,5 +1,5 @@
 {
-  "name": "trycatch",
+  "name": "babel-plugin-try-catch",
   "version": "1.0.0",
   "description": "auto add try-catch for function",
   "main": "lib/index.js",
@@ -10,5 +10,12 @@
   "license": "ISC",
   "dependencies": {
     "@babel/template": "^7.16.7"
+  },
+  "keywords": [
+    "babel-plugin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Kyra-xu/babel-plugin-try-catch.git"
   }
 }
