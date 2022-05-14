@@ -37,7 +37,7 @@ function() {
 ## Installation
 
 ```sh
-npm install --save-dev babel-plugin-try-catch
+npm install --save-dev babel-plugin-add-try-catch
 ```
 
 ## Usage
@@ -46,20 +46,12 @@ npm install --save-dev babel-plugin-try-catch
 
 **.babelrc**
 
-Without options:
-
-```json
-{
-  "plugins": ["try-catch"]
-}
-```
-
 With options:
 
 ```json
 {
   "plugins": [
-       ["try-catch", {
+       ["add-try-catch", {
             "catchFunc": "function report(info, error) {commonHandleError(info, error)}",
             "disableComment": "disable-try-catch",
             "limitLine": 5
@@ -73,6 +65,6 @@ With options:
 
 ```javascript
 require("babel-core").transform("code", {
-  plugins: ["try-catch"]
+  plugins: ["add-try-catch"]
 });
 ```
