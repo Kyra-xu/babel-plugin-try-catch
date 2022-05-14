@@ -1,0 +1,14 @@
+{
+  "name": "trycatch",
+  "version": "1.0.0",
+  "description": "auto add try-catch for function",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "1053198883@qq.com",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/template": "^7.16.7"
+  }
+}
