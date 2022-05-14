@@ -1,4 +1,4 @@
-# babel-plugin-try-catch
+# babel-plugin-add-try-catch
 
 
 > Auto add try-catch for your function
